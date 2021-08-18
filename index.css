@@ -7,8 +7,10 @@ nav {
     font-size: 30px;
     padding: 20px;
     background-color: rgb(107, 107, 107);
+    overflow: auto;
 }
 a {
+    border: 20px;
     padding: 20px;
     color:rgb(0, 0, 0);
     text-decoration: none;
@@ -55,4 +57,9 @@ table, th {
     padding:10px;
     font-family: Arial;
     font-size: 16;
+}
+@media screen and (max-width: 800px) {
+    nav a{
+        display: block;
+    }
 }
