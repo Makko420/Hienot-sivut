@@ -1,0 +1,58 @@
+html {
+    background-color: whitesmoke;
+}
+
+nav {
+    font-family: Arial;
+    font-size: 30px;
+    padding: 20px;
+    background-color: rgb(107, 107, 107);
+}
+a {
+    padding: 20px;
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+}
+a:hover {
+    background-color: rgb(138, 138, 138);
+}
+h2 {
+    font-family: Arial;
+    font-size: 20;
+    word-spacing: 5px;
+}
+h1 {
+    font-family: Arial;
+    font-size: 25;
+}
+h3 {
+    font-family: Arial;
+    font-size: 15;
+}
+.list {
+    font-family: Arial;
+    font-size: 16;
+    font-weight: lighter;
+    list-style: none;
+}
+table {
+    text-align: left;
+}
+p {
+    font-family: Arial;
+    font-size: 16;
+}
+
+body {
+    margin: 0px;
+}
+section {
+    margin: 50px;
+}
+table, th {
+    border:1px solid black;
+    border-collapse: collapse;
+    padding:10px;
+    font-family: Arial;
+    font-size: 16;
+}
